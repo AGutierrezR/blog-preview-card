@@ -1,0 +1,22 @@
+{
+  "title": "Colors",
+  "description": "Hex color codes that can be shared, cross-platform. They can be converted at point of usage, such as HSL for web or CMYK for print.",
+  "items": [
+    {
+      "name": "Black",
+      "value": "hsl(0, 0%, 7%)"
+    },
+    {
+      "name": "White",
+      "value": "hsl(0, 0%, 100%)"
+    },
+    {
+      "name": "Grey",
+      "value": "hsl(0, 0%, 50%)"
+    },
+    {
+      "name": "Yellow",
+      "value": "hsl(47, 88%, 63%)"
+    }
+  ]
+}
