@@ -1,0 +1,24 @@
+{
+  "name": "blog-preview-card",
+  "version": "1.0.0",
+  "description": "![Design preview for the Blog preview card coding challenge](./design/desktop-preview.jpg)",
+  "main": "postcss.config.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "alpinejs": "^3.13.2",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "prettier-plugin-css-order": "^2.0.1",
+    "prettier-plugin-tailwindcss": "^0.5.6",
+    "slugify": "^1.6.6",
+    "tailwindcss": "^3.3.5",
+    "vite": "^4.5.0"
+  }
+}

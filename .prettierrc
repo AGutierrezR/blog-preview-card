@@ -1,0 +1,10 @@
+{
+  "trailingComma": "all",
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "printWidth": 80,
+  "plugins": ["prettier-plugin-css-order", "prettier-plugin-tailwindcss"],
+  "order": "concentric-css"
+}
