@@ -16,22 +16,30 @@
 </head>
 <body>
 
-  Learning
+<body class="flex flex-col bg-yellow">
 
-  Published 21 Dec 2023
 
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main class="flex flex-col justify-center region">
+    <h1 class="sr-only">Blog preview Card</h1>
+    <div class="wrapper">
+      <div class="flow flow-3 p-6 border rounded-3xl mx-auto max-w-[384px] bg-white shadow">
+        <div class="rounded-xl overflow-hidden">
+          <img class="min-h-[12.5rem] object-cover" src="/assets/images/illustration-article.svg" alt="">
+        </div>
+        <div class="cluster mt-6">
+          <span class="block text-small font-black px-3 py-1 rounded bg-yellow">Learning</span>
+        </div>
+        <span class="block text-small">Published 21 Dec 2023</span>
+        <h2>HTML & CSS foundations</h2>
+        <p class="text-grey">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+        <div class="cluster gap-3 mt-6">
+          <img class="size-8" src="/assets/images/image-avatar.webp" alt="">
+          <span class="font-bold text-[.875rem]">Greg Hooper</span>
+        </div>
+      </div>
+    </div>
+  </main>
 
   <script type="module" src="./src/main.js"></script>
-  
 </body>
 </html>

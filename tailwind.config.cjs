@@ -28,6 +28,9 @@ module.exports = {
       ...theme('spacing'),
     }),
     padding: ({ theme }) => theme('spacing'),
+    boxShadow: {
+      DEFAULT: '8px 8px var(--color-black)'
+    },
     extend: {
       spacing
     }

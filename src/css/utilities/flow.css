@@ -6,3 +6,7 @@ Info about this implementation: https://piccalil.li/quick-tip/flow-utility/
 .flow > * + * {
   margin-top: var(--flow-space, 1em);
 }
+
+.flow-3 > * + * {
+  --flow-space: .75rem;
+}
